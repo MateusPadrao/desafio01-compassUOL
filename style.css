@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("sf-pro-display-cufonfonts/SFPRODISPLAYREGULAR.OTF");
+}
+
+html {
+  font-family: "SF Pro Display";
+}
+
+#section1 {
+  background-color: #232340;
+  color: #fff;
+}
+
+#section1 .date_section1 h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+#section2 {
+  background: linear-gradient(
+    360deg,
+    rgba(255, 255, 255, 0.0001) 0%,
+    rgba(237, 229, 240, 0.504289) 100%
+  );
+}
+
+#section3 {
+  background: linear-gradient(
+    360deg,
+    rgba(255, 255, 255, 0.0001) 0%,
+    #ede5f0 100%
+  );
+}
+
+#section4 {
+  background: linear-gradient(
+    360deg,
+    rgba(255, 255, 255, 0.0001) 0%,
+    #ede5f0 100%
+  );
+}
