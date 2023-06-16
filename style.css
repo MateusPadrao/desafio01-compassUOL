@@ -42,3 +42,27 @@ html {
     #ede5f0 100%
   );
 }
+
+.cta {
+  width: 1296px;
+  height: 1024px;
+  left: 71px;
+  top: 8578px;
+
+  /* color/primary */
+
+  background: #5468e7;
+  border-radius: 40px;
+}
+
+.vertical_line {
+  width: 1px;
+  height: 511px;
+  left: 719px;
+  top: 9091px;
+  opacity: 0.2;
+}
+
+.seta {
+  background-color: #232340;
+}
