@@ -16,7 +16,7 @@ html {
 
 @media screen and (max-width: 375px) {
   html {
-    font-size: 70%;
+
   }
 }
 
@@ -37,11 +37,8 @@ html {
 .logo_hero_header {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   gap: 16px;
-  width: 159px;
-  height: 40px;
-  left: 72px;
-  top: 76px;
 }
 
 .logo_folio {
