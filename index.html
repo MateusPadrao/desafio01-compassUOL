@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.">
     <title>Folio Agency</title>
     <link type="text/css" rel="stylesheet" href="style.css" />
     <link
@@ -10,245 +11,261 @@
       href="hero_header/navbar/logo symbol.png"
       type="image/png"
     />
-    <!-- Ícone da aba do navegador -->
+    
   </head>
   <body>
-    <header class="hero-header">
-      <nav class="navigation-bar">
-        <div class="logo">
-          <img src="hero_header/navbar/logo symbol.png" alt="logotipo Folio" />
-          <img src="hero_header/navbar/folio..png" alt="nome Folio" />
+    <header class="hero_header">
+      <div class="hero_header_top">
+        <div class="logo_hero_header">
+          <img
+            class="logo_folio"
+            src="hero_header/navbar/logo symbol.png"
+            alt="logotipo Folio"
+          />
+          <img
+            class="nome_folio"
+            src="hero_header/navbar/folio..png"
+            alt="nome Folio"
+          />
         </div>
-        <ul class="nav-links">
-          <li><a href="#section1">About</a></li>
-          <li><a href="#section2">Work</a></li>
-          <li><a href="#section3">Services</a></li>
-          <li>
-            <a href="#section4"
-              >Jobs<img src="hero_header/navbar/notification.png"
-            /></a>
-          </li>
-        </ul>
-        <button class="contact-nav-botao">Contact Us</button>
-      </nav>
-      <div class="hero-content">
-        <div class="typography">
+        
+        <nav class="menu">
+          <a class="menu_option" href="#section1">About</a>
+          <a class="menu_option" href="#section2">Work</a>
+          <a class="menu_option" href="#section3">Services</a>
+          <a class="menu_option_notification" href="#section4">Jobs<span class="badge">2</span></a>
+        </nav>
+        
+
+        <button class="hero_header_top_button">Contact Us</button>
+      </div>
+
+      <div class="hero_content">
+        <div class="hero_content_text">
           <h1>Stand Out from The Crowd.</h1>
+          <p>Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.</p>
+          <button class="hero_content_text_button">Recent Work</button>
+        </div>
+        <img class="hero_content_img" src="hero_header/3d+wall/land-pag-fig.png" alt="3d wall" />
+      </div>
+    </header>
+    
+    <main>
+      <section id="section1">
+        <!-- About -> Who We Are -->
+        <div class="headline_section1">
+          <img class="headline_section1_logo" src="section1\logo symbol.png" alt="logo symbol" />
+          <div class="headline_section1_text">  
+            <p class="indexOfSection"><span class="numberOfSection">01</span>Who We Are</p>
+            <h1>We Make Designs that Lead and Inspire.</h1>
+          </div>
+          <img class="headline_section1_arrow" src="section1/Arrow.png" alt="arrow" />
+          
+        </div>
+        <div class="section1_middle">
+          <!-- Menu lateral de anos -->
+          <nav class="years_menu">
+            <a class="year_option">2017</a>
+            <a class="year_option">2018</a>
+            <a class="year_option">2019</a>
+            <a class="year_option">2020</a>
+            <a class="year_option">2021</a>
+          </nav>
+          <img class="section1_middle_img" src="section1/img_section1.png" alt="img_section1" />
+        </div>
+        
+        <div class="section1_bottom">
+          
+          <div class="section1_bottom_text">
+            <h3>A design team building a curated marketplace for UI designers.</h3>
+            <p>
+              4,404 curated design resources to energize your creative workflow.
+              We're a growing family of 334,531 designers and makers from around the
+              world
+            </p>
+            <button class="section1_button">Contact Us</button>
+          </div>
+          
+          
+          <div class="section1_bottom_date">
+            <h1>28</h1>
+            <p>Biggest Branding</p>
+          </div>
+          
+
+        </div>
+      </section>
+      <section id="section2">
+        <!-- Work -> What We Do -->
+        <div class="headline_section2">
+          
+          <img class="headline_section2_logo" src="section2/logo symbol.png" alt="logo symbol" />
+          
+          <div class="headline_section2_text">
+            <p class="indexOfSection"><span class="numberOfSection">02.</span>What We Do</p>
+            <h1>We Make Designs that Lead and Inspire.</h1>
+          </div>
+          
+          <img class="headline_section2_arrow" src="section2/Arrow_black.png" alt="arrow" />
+        
+        </div>
+        <img src="section2/Service Cards.png" alt="service cards" />
+      </section>
+      <section id="section3">
+        <div class="headline_section3">
+          <img class="headline_section3_logo" src="section3/logo symbol.png" alt="logo symbol" />
+          <div class="headline_section3_text">
+            <p class="indexOfSection"><span class="numberOfSection">03.</span>Famous Projects</p>
+            <h1>Our Partnerships</h1>
+            <p class="headline_section3_text_paragraph">
+              Agency is a full-service agency, busy designing and building beautiful
+              digital products, brands, and experiences.
+            </p>
+          </div>
+          <button class="headline_section3_button">Contact Us</button>
+        </div>
+        
+        <div class="featured_work">
+          <div class="featured_work_text">
+            <button class="featured_work_text_button">Featured Products</button>
+            <h1>Sapiens: The Free Character Builder App.</h1>
+            <p>
+              Beautiful library of modular, component-based character illustrations
+              free to use for all your personal or client projects.
+            </p>
+          </div>
+          <img class="featured_work_img" src="section3/img.png" alt="img" />
+          
+        </div>
+        <div class="portfolios">
+          <div class="portfolio2">
+            <h1>Bento Vol. 2</h1>
+            <img class="bentoVol2_img" src="section3/bento2/[ 4 ] – Main.png" alt="bento2" />
+            <img class="stroke_bento2" src="section3/bento2/Stroke.png" alt="stroke" />
+            <p>
+              Agency is a full-service agency, busy designing and building beautiful
+              digital products, brands, and experiences.
+            </p>
+          </div>
+          <div class="portfolio1">
+            <h1>Bento 3D illustration</h1>
+            <img class="bento3d_img" src="section3/bento1/[ 4 ] – Tablet.png" alt="bento1_tablet" />
+            <img class="stroke_bento3d" src="section3/bento1/Stroke.png" alt="bento1_stroke" />
+            <p>
+              Agency is a full-service agency, busy designing and building beautiful
+              digital products, brands, and experiences.
+            </p>
+          </div>
+          <div class="portfolio4">
+            <h1>Bento Vol. 3</h1>
+            <img class="bentoVol3_img" src="section3/bento4/[ 2 ] – Tablet.png" alt="bento4_tablet" />
+            <img class="stroke_bento3" src="section3/bento4/Stroke.png" alt="bento4_stroke" />
+            <p>
+              Agency is a full-service agency, busy designing and building beautiful
+              digital products, brands, and experiences.
+            </p>
+          </div>
+          <div class="portfolio3">
+            <h1>Sapiens: Man</h1>
+            <img src="section3/bento3/color bg 2.png" alt="bento3_colorbg" />
+            <img class="sapiens_man_stroke" src="section3/bento3/Stroke.png" alt="bento3_stroke" />
+            <p>
+              Agency is a full-service agency, busy designing and building beautiful
+              digital products, brands, and experiences.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="section4">
+        <img class="section4_logo" src="section4/logo symbol.png" alt="logo symbol" />
+        <div class="section4_content">
+          
+          <div class="section4_content_headline">
+            <p class="indexOfSection"><span class="numberOfSection">04.</span>We are hiring</p>
+          </div>
+          
+          <h1>Jobs</h1>
+          
           <p>
             Agency is a full-service agency, busy designing and building
             beautiful digital products, brands, and experiences.
           </p>
+          
+          <div class="section4_content_button">
+            <img src="section4/Style 1.png" alt="style 1" />
+            <p>Available Jobs</p>
+          </div>
+          
         </div>
-        <div>
-          <button class="recent-work">Recent Work</button>
+        
+        <div class="section4_job_cards">
+          
+            <img src="section4/card4/job card 4.png" alt="job card 4" />
+          
+          
+            <img src="section4/card 3/job card 3.png" alt="job card 3" />
+          
+          
+            <img src="section4/card2/job card 2.png" alt="job card 2" />
+          
+          
+            <img src="section4/card1/job card 1.png" alt="job card 1" />
+          
         </div>
-      </div>
-      <div class="3dwall">
-        <img src="hero_header/3d+wall/3d + wall.png" alt="3d wall" />
-      </div>
-    </header>
-    <section id="section1">
-      <!-- About -> Who We Are -->
-      <div class="headline">
-        <img src="section1\logo symbol.png" alt="logo symbol" />
-        <p class="numberOfSection">01</p>
-        <p class="indexOfSection">Who We Are</p>
-        <h1>We Make Designs that Lead and Inspire.</h1>
-      </div>
-      <img src="section1/Arrow.png" alt="arrow" />
-      <aside>
-        <!-- Menu lateral de anos -->
-        <ul>
-          <li>2017</li>
-          <li>2018</li>
-          <li>2019</li>
-          <li>2020</li>
-          <li>2021</li>
-        </ul>
-      </aside>
-      <img src="section1/img_section1.png" alt="img_section1" />
-      <div class="section1_content">
-        <h3>A design team building a curated marketplace for UI designers.</h3>
-        <p>
-          4,404 curated design resources to energize your creative workflow.
-          We're a growing family of 334,531 designers and makers from around the
-          world
-        </p>
-        <button class="section1_button">Contact Us</button>
-      </div>
-      <div class="date_section1">
-        <h1>28</h1>
-        <p>Biggest Branding</p>
-      </div>
-    </section>
-    <section id="section2">
-      <!-- Work -> What We Do -->
-      <div class="headline">
-        <img src="section2/logo symbol.png" alt="logo symbol" />
-        <p class="numberOfSection">02.</p>
-        <p class="indexOfSection">What We Do</p>
-        <h1>We Make Designs that Lead and Inspire.</h1>
-        <img src="section2/Arrow_black.png" alt="arrow" />
-      </div>
-      <img src="section2/Service Cards.png" alt="service cards" />
-    </section>
-    <section id="section3">
-      <div class="headline">
-        <img src="section3/logo symbol.png" alt="logo symbol" />
-        <p class="numberOfSection">03.</p>
-        <p class="indexOfSection">Famous Projects</p>
-        <h1>Our Partnerships</h1>
-        <p>
-          Agency is a full-service agency, busy designing and building beautiful
-          digital products, brands, and experiences.
-        </p>
-        <button class="headline_section3_button">Contact Us</button>
-      </div>
-      <div class="featured_work">
-        <button class="featured_work_button">Featured Products</button>
-        <h1>Sapiens: The Free Character Builder App.</h1>
-        <p>
-          Beautiful library of modular, component-based character illustrations
-          free to use for all your personal or client projects.
-        </p>
-        <img src="section3/img.png" alt="img" />
-        <img src="section3/Style 2.png" alt="style 2" />
-        <button class="view_button">View</button>
-      </div>
-      <div class="portfolio2">
-        <h1>Bento Vol. 2</h1>
-        <img src="section3/bento2/[ 4 ] – Main.png" alt="bento2" />
-        <img src="section3/bento2/color bg.png" alt="color bg" />
-        <img src="section3/bento2/Stroke.png" alt="stroke" />
-        <p>
-          Agency is a full-service agency, busy designing and building beautiful
-          digital products, brands, and experiences.
-        </p>
-      </div>
-      <div class="portfolio1">
-        <h1>Bento 3D illustration</h1>
-        <img src="section3/bento1/[ 4 ] – Tablet.png" alt="bento1_tablet" />
-        <img src="section3/bento1/color bg.png" alt="bento1_colorbg" />
-        <img src="section3/bento1/Stroke.png" alt="bento1_stroke" />
-        <p>
-          Agency is a full-service agency, busy designing and building beautiful
-          digital products, brands, and experiences.
-        </p>
-      </div>
-      <div class="portfolio4">
-        <h1>Bento Vol. 3</h1>
-        <img src="section3/bento4/[ 2 ] – Tablet.png" alt="bento4_tablet" />
-        <img src="section3/bento4/color bg.png" alt="bento4_colorbg" />
-        <img src="section3/bento4/Stroke.png" alt="bento4_stroke" />
-        <p>
-          Agency is a full-service agency, busy designing and building beautiful
-          digital products, brands, and experiences.
-        </p>
-      </div>
-      <div class="portfolio3">
-        <h1>Sapiens: Man</h1>
-        <img src="section3/bento3/color bg 2.png" alt="bento3_colorbg" />
-        <img src="section3/bento3/Stroke.png" alt="bento3_stroke" />
-        <p>
-          Agency is a full-service agency, busy designing and building beautiful
-          digital products, brands, and experiences.
-        </p>
-      </div>
-    </section>
-    <section id="section4">
-      <div class="logo">
-        <img src="section4/logo symbol.png" alt="logo symbol" />
-      </div>
-      <div class="content">
-        <div class="headline">
-          <p class="numberOfSection">04.</p>
-          <p class="indexOfSection">We are hiring</p>
-          <h1>Jobs</h1>
-          <p>
-            Agency is a full-service agency, busy designing and building beautiful
-            digital products, brands, and experiences.
-          </p>
-        </div>
-        <div class="scroll_down_button">
-          <img src="section4/Style 1.png" alt="style 1" />
-          <p>Available Jobs</p>
-        </div>
-      </div>
-      <div class="job_card">
-        <div class="card4">
-          <img src="section4/card4/job card 4.png" alt="job card 4" />
-        </div>
-        <div class="card3">
-          <img src="section4/card 3/job card 3.png" alt="job card 3" />
-        </div>
-        <div class="card2">
-          <img src="section4/card2/job card 2.png" alt="job card 2" />
-        </div>
-        <div class="card1">
-          <img src="section4/card1/job card 1.png" alt="job card 1" />
-        </div>
-      </div>
-    </section>
+      </section>
+    </main>
+    
     <footer>
       <div class="cta">
         <!-- Retângulo azul -->
-        <div class="headline">
+        <div class="cta_headline">
           <img src="footer/contact/contact.png" alt="contact" />
-          <br />
           <img src="footer/contact/tag line.png" alt="say hello" />
-          <h2>A design team building a curated marketplace for UI designers.</h2>
+          <h2>
+            A design team building a curated marketplace for UI designers.
+          </h2>
         </div>
-        <hr class="horizontal_line" /> <!-- line 2 -->
-        <div class="text_aside">
+        
+        <div class="cta_bottom">
           <h1>Let's talk about your next project</h1>
-        </div>
-        <hr class="vertical_line" /> <!-- line 3 -->
-        <div class="group">
-          <img src="footer/contact/SpeachBubble V2.png" alt="SpeachBubble" />
-          <h2>Invest in your designs today!</h2>
-          <img class="seta" src="footer/contact/Stroke.png" alt="Stroke" />
+          <div class="group">
+            <img class="speach" src="footer/contact/SpeachBubble V2.png" alt="SpeachBubble" />
+            <div class="group_text">
+              <h2>Invest in your designs today!</h2>
+              <img class="seta" src="footer/contact/Stroke.png" alt="Stroke" />
+            </div>
+          </div>
         </div>
       </div>
       <div class="footer_content">
         <!-- Conteúdo do rodapé -->
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <div class="logo">
-          <img src="footer/content/logo symbol.png" alt="logo" />
-          <img src="footer/content/folio..png" alt="logo+title"/>
+        
+        <div class="footer_content_logo">
+          <img class="footer_content_logo_icon" src="footer/content/logo symbol.png" alt="logo" />
+          <img class="footer_content_logo_name" src="footer/content/folio..png" alt="logo+title" />
         </div>
         <p>
           Agency is a full-service agency, busy designing and building beautiful
           digital products, brands, and experiences.
         </p>
-        <nav>
-          <ul>
-            <li><a href="#section1">About</a></li>
-            <li><a href="#section2">Work</a></li>
-            <li><a href="#section3">Services</a></li>
-            <li><a href="#section4">Jobs</a></li>
-          </ul>
+        <nav class="menu">
+          <a class="menu_option" href="#section1">About</a>
+          <a class="menu_option" href="#section2">Work</a>
+          <a class="menu_option" href="#section3">Services</a>
+          <a class="menu_option" href="#section4">Jobs</a>
         </nav>
       </div>
       <div class="footer_bottom">
         <!-- @ da Folio e links de redes sociais -->
-        <hr />
         <p>@ 2020, UI8 LLC.</p>
         <div class="social_media">
           <p>Follow us</p>
-          <img src="footer/bottom/logo-facebook.png" alt="facebook" />
-          <img src="footer/bottom/logo-youtube.png" alt="youtube" />
-          <img src="footer/bottom/logo-instagram.png" alt="instagram" />
-        </div>  
+          <img class="facebook" src="footer/bottom/logo-facebook.png" alt="facebook" />
+          <img class="youtube" src="footer/bottom/logo-youtube.png" alt="youtube" />
+          <img class="instagram" src="footer/bottom/logo-instagram.png" alt="instagram" />
+        </div>
       </div>
     </footer>
+
   </body>
 </html>
